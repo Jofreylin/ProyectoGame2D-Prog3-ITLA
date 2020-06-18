@@ -1,0 +1,407 @@
+fileFormatVersion: 2
+guid: c909ad9fef66d574187c2ee0052d59f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8783181420646254131
+    second: OVNI VELDE ENCENDIENDO 75x75_0
+  - first:
+      213: -6463515197666342204
+    second: OVNI VELDE ENCENDIENDO 75x75_1
+  - first:
+      213: 1842133614784302848
+    second: OVNI VELDE ENCENDIENDO 75x75_2
+  - first:
+      213: -5009345685533853342
+    second: OVNI VELDE ENCENDIENDO 75x75_3
+  - first:
+      213: 5645299236733934127
+    second: OVNI VELDE ENCENDIENDO 75x75_4
+  - first:
+      213: 5304435468877611629
+    second: OVNI VELDE ENCENDIENDO 75x75_5
+  - first:
+      213: 704354202286669813
+    second: OVNI VELDE ENCENDIENDO 75x75_6
+  - first:
+      213: 8333994999331967608
+    second: OVNI VELDE ENCENDIENDO 75x75_7
+  - first:
+      213: 4949323512195187181
+    second: OVNI VELDE ENCENDIENDO 75x75_8
+  - first:
+      213: 225534246045438869
+    second: OVNI VELDE ENCENDIENDO 75x75_0
+  - first:
+      213: -625545588403349014
+    second: OVNI VELDE ENCENDIENDO 75x75_1
+  - first:
+      213: -3855026329489034549
+    second: OVNI VELDE ENCENDIENDO 75x75_2
+  - first:
+      213: -5282514467857048488
+    second: OVNI VELDE ENCENDIENDO 75x75_3
+  - first:
+      213: 5874554821536359373
+    second: OVNI VELDE ENCENDIENDO 75x75_4
+  - first:
+      213: 7294595703651324430
+    second: OVNI VELDE ENCENDIENDO 75x75_5
+  - first:
+      213: 3393020422812264978
+    second: OVNI VELDE ENCENDIENDO 75x75_6
+  - first:
+      213: -148679135237903848
+    second: OVNI VELDE ENCENDIENDO 75x75_7
+  - first:
+      213: 1059062411928015709
+    second: OVNI VELDE ENCENDIENDO 75x75_8
+  - first:
+      213: 3735559948671677043
+    second: OVNI VELDE ENCENDIENDO 75x75_9
+  - first:
+      213: -2732946577770944042
+    second: OVNI VELDE ENCENDIENDO 75x75_10
+  - first:
+      213: -8814393005998294428
+    second: OVNI VELDE ENCENDIENDO 75x75_11
+  - first:
+      213: 2170124763614682150
+    second: OVNI VELDE ENCENDIENDO 75x75_12
+  - first:
+      213: 6803865465661339626
+    second: OVNI VELDE ENCENDIENDO 75x75_13
+  - first:
+      213: -7599438332937193212
+    second: OVNI VELDE ENCENDIENDO 75x75_14
+  - first:
+      213: -7175096970987153456
+    second: OVNI VELDE ENCENDIENDO 75x75_15
+  - first:
+      213: 8179154272783175277
+    second: OVNI VELDE ENCENDIENDO 75x75_16
+  - first:
+      213: 4012704003467798570
+    second: OVNI VELDE ENCENDIENDO 75x75_17
+  - first:
+      213: -1453300602877912129
+    second: OVNI VELDE ENCENDIENDO 75x75_18
+  - first:
+      213: 3969518213419468091
+    second: OVNI VELDE ENCENDIENDO 75x75_19
+  - first:
+      213: -3071675070285537632
+    second: OVNI VELDE ENCENDIENDO 75x75_20
+  - first:
+      213: -158994154338629815
+    second: OVNI VELDE ENCENDIENDO 75x75_21
+  - first:
+      213: -8915887875983762590
+    second: OVNI VELDE ENCENDIENDO 75x75_22
+  - first:
+      213: -2669603750094198474
+    second: OVNI VELDE ENCENDIENDO 75x75_23
+  - first:
+      213: 2052129343015415022
+    second: OVNI VELDE ENCENDIENDO 75x75_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 21
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OVNI VELDE ENCENDIENDO 75x75_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593593ca332412300800000000000000
+      internalID: 225534246045438869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OVNI VELDE ENCENDIENDO 75x75_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 150
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9d7640a9d9157f0800000000000000
+      internalID: -625545588403349014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OVNI VELDE ENCENDIENDO 75x75_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 150
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc237076af1308ac0800000000000000
+      internalID: -3855026329489034549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OVNI VELDE ENCENDIENDO 75x75_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85cd486541db0b6b0800000000000000
+      internalID: -5282514467857048488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OVNI VELDE ENCENDIENDO 75x75_4
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 75
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3ab374c7c968150800000000000000
+      internalID: 5874554821536359373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OVNI VELDE ENCENDIENDO 75x75_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 75
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e025a30e42c9b3560800000000000000
+      internalID: 7294595703651324430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OVNI VELDE ENCENDIENDO 75x75_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21aee59f81e661f20800000000000000
+      internalID: 3393020422812264978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OVNI VELDE ENCENDIENDO 75x75_7
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ae1ae3d19cfedf0800000000000000
+      internalID: -148679135237903848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OVNI VELDE ENCENDIENDO 75x75_8
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5310f907ab82be00800000000000000
+      internalID: 1059062411928015709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
