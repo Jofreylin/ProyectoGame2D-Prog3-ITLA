@@ -5,8 +5,8 @@ using UnityEngine;
 public class ControlMove : MonoBehaviour
 {
     public float velocidad = 4f;
-    public float maxY = 4;
-    public float minY = -4;
+    public float maxY;
+    public float minY;
     void Start()
     {
         
@@ -31,6 +31,6 @@ public class ControlMove : MonoBehaviour
             transform.position += Vector3.down * velocidad * Time.deltaTime;
 
         }
-        transform.position = new vector3(transform.position.x,Mathf.Clamp(transform.position.y,minY,maxY), transform.position.z);
+   transform.position = new Vector3(transform.position.x,Mathf.Clamp(transform.position.y,minY,maxY), transform.position.z);
     }
 }
