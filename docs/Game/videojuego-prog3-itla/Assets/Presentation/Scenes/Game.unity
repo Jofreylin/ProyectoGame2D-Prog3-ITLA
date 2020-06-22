@@ -373,7 +373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b96071da1d676ec499ef177885e8b4e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pausa: 0
+  pausa: 1
   MenuPausa: {fileID: 920076121}
 --- !u!1 &406541593
 GameObject:
@@ -943,7 +943,7 @@ GameObject:
   - component: {fileID: 920076123}
   - component: {fileID: 920076122}
   m_Layer: 5
-  m_Name: Canvas Paused
+  m_Name: MenuPausa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

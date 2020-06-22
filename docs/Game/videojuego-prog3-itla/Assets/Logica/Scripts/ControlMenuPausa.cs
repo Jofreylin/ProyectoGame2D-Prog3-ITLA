@@ -20,7 +20,7 @@ public class ControlMenuPausa : MonoBehaviour
             MenuPausa.active = true;
             Time.timeScale = 0;
         }
-    else if (Input.GetKeyDown("p") && pausa == false)
+    else if (Input.GetKeyDown("p") && pausa == true)
     
     {
         pausa = false;
