@@ -8,8 +8,12 @@ public class ControlMove : MonoBehaviour
     public float velocidad = 4f;
     private Animator anim;
     private Rigidbody2D rb2d;
+
+    Object bulletRef;
+
     void Start()
     {
+        bulletRef = Resources.Load("Bullet");
         rb2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
@@ -18,7 +22,6 @@ public class ControlMove : MonoBehaviour
     void Update()
     {
         
-
         if (Input.GetKey(KeyCode.UpArrow))
         {
             anim.SetBool("Bajar",false);
@@ -43,5 +46,9 @@ public class ControlMove : MonoBehaviour
         float limitedSpeed = Mathf.Clamp(rb2d.velocity.y, -velocidadMax, velocidadMax);
         rb2d.velocity = new Vector2(rb2d.velocity.x,limitedSpeed);
 
+        if(Input.GetKeyDown(KeyCode.Space)){
+            GameObject bullet = (GameObject)Instantiate(bulletRef);
+            bullet.transform.position = new Vector3(transform.position.x - 1.6f, transform.position.y - .2f, -1);
+        }
     }
 }
