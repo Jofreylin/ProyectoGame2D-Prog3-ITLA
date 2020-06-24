@@ -11,6 +11,15 @@ TextureImporter:
   - first:
       213: 6910251362820009361
     second: OVNI Volando bajo_2
+  - first:
+      213: 3813488829303622255
+    second: OVNI Volando bajo_0
+  - first:
+      213: -1431594205324359518
+    second: OVNI Volando bajo_1
+  - first:
+      213: -6869286216565522931
+    second: OVNI Volando bajo_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -122,8 +131,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d0fcedcc75e94c20800000000000000
-      internalID: 3191334135162269912
+      spriteID: f6a0091b2eb3ce430800000000000000
+      internalID: 3813488829303622255
       vertices: []
       indices: 
       edges: []
@@ -143,8 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7baab88517cbc43e0800000000000000
-      internalID: -2068070933867025737
+      spriteID: 2a84229b7a4f12ce0800000000000000
+      internalID: -1431594205324359518
       vertices: []
       indices: 
       edges: []
@@ -164,8 +173,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19dab8d900526ef50800000000000000
-      internalID: 6910251362820009361
+      spriteID: d0eff11c4946ba0a0800000000000000
+      internalID: -6869286216565522931
       vertices: []
       indices: 
       edges: []
