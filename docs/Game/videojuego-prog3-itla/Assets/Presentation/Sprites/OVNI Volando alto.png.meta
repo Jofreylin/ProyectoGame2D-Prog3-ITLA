@@ -11,6 +11,15 @@ TextureImporter:
   - first:
       213: -8737836497459372761
     second: OVNI Volando alto_2
+  - first:
+      213: 4702180511555056715
+    second: OVNI Volando alto_0
+  - first:
+      213: -1731772731333862032
+    second: OVNI Volando alto_1
+  - first:
+      213: 306950513438082172
+    second: OVNI Volando alto_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -122,8 +131,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6d97cad09f4e9940800000000000000
-      internalID: 5304764894653422959
+      spriteID: b44f0051340814140800000000000000
+      internalID: 4702180511555056715
       vertices: []
       indices: 
       edges: []
@@ -143,8 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a264d464c61c39ab0800000000000000
-      internalID: -5002442090298390998
+      spriteID: 07d132d40e187f7e0800000000000000
+      internalID: -1731772731333862032
       vertices: []
       indices: 
       edges: []
@@ -164,8 +173,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72d9d772008fcb680800000000000000
-      internalID: -8737836497459372761
+      spriteID: c74c91d9dd1824400800000000000000
+      internalID: 306950513438082172
       vertices: []
       indices: 
       edges: []

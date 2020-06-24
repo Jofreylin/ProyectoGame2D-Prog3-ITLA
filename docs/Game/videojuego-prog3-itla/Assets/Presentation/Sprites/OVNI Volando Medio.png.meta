@@ -20,6 +20,24 @@ TextureImporter:
   - first:
       213: -5936528412339796505
     second: OVNI Volando Medio_5
+  - first:
+      213: 7889002045986752682
+    second: OVNI Volando Medio_0
+  - first:
+      213: -6949617171534745324
+    second: OVNI Volando Medio_1
+  - first:
+      213: 8819952858868120370
+    second: OVNI Volando Medio_2
+  - first:
+      213: -6058278794262389771
+    second: OVNI Volando Medio_3
+  - first:
+      213: -3440607883679846823
+    second: OVNI Volando Medio_4
+  - first:
+      213: -3766025839024924471
+    second: OVNI Volando Medio_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -131,8 +149,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 853cc0550ab5f1c50800000000000000
-      internalID: 6638125119947195224
+      spriteID: aa8ce57209d5b7d60800000000000000
+      internalID: 7889002045986752682
       vertices: []
       indices: 
       edges: []
@@ -152,8 +170,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9e46275f834e1ed0800000000000000
-      internalID: -2441439665066717542
+      spriteID: 41177bdc0000e8f90800000000000000
+      internalID: -6949617171534745324
       vertices: []
       indices: 
       edges: []
@@ -173,8 +191,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 719d024c2dd4e29d0800000000000000
-      internalID: -2797212750921541353
+      spriteID: 23b76802564c66a70800000000000000
+      internalID: 8819952858868120370
       vertices: []
       indices: 
       edges: []
@@ -194,8 +212,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd562282c54275100800000000000000
-      internalID: 96585895240689116
+      spriteID: 5fb55b5e88baceba0800000000000000
+      internalID: -6058278794262389771
       vertices: []
       indices: 
       edges: []
@@ -215,8 +233,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbcb3ab8e586d6510800000000000000
-      internalID: 1544005002536926399
+      spriteID: 95eaad1eb518040d0800000000000000
+      internalID: -3440607883679846823
       vertices: []
       indices: 
       edges: []
@@ -236,8 +254,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e5097facd63d9da0800000000000000
-      internalID: -5936528412339796505
+      spriteID: 9c81af1e3736cbbc0800000000000000
+      internalID: -3766025839024924471
       vertices: []
       indices: 
       edges: []
