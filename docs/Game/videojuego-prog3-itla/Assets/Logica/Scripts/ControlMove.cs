@@ -17,12 +17,7 @@ public class ControlMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float h = Input.GetAxis("Vertical");
-
-        rb2d.AddForce(Vector2.up * velocidad * h);
-
-        float limitedSpeed = Mathf.Clamp(rb2d.velocity.y, -velocidadMax, velocidadMax);
-        rb2d.velocity = new Vector2(rb2d.velocity.x,limitedSpeed);
+        
 
         if (Input.GetKey(KeyCode.UpArrow))
         {
@@ -40,6 +35,13 @@ public class ControlMove : MonoBehaviour
             anim.SetBool("Subir",false);
             anim.SetBool("Bajar",false);
         }
+
+        float h = Input.GetAxis("Vertical");
+
+        rb2d.AddForce(Vector2.up * velocidad * h);
+
+        float limitedSpeed = Mathf.Clamp(rb2d.velocity.y, -velocidadMax, velocidadMax);
+        rb2d.velocity = new Vector2(rb2d.velocity.x,limitedSpeed);
 
     }
 }
