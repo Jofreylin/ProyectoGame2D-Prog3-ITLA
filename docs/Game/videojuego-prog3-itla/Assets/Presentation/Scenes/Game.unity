@@ -326,6 +326,7 @@ GameObject:
   - component: {fileID: 226223003}
   - component: {fileID: 226223002}
   - component: {fileID: 226223001}
+  - component: {fileID: 226223005}
   m_Layer: 0
   m_Name: GLOBO DE EJEMPLO
   m_TagString: Untagged
@@ -433,6 +434,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &226223005
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226223000}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c1c8f0f7f18e16f4b884ce29f88ef186, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &304108233
 GameObject:
   m_ObjectHideFlags: 0
