@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ovni Volando Medio
+  m_Name: Ovni Volando Alto
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,18 +20,10 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -2441439665066717542, guid: 6cb618372068abb468e47545e3e550eb,
+      value: {fileID: -5002442090298390998, guid: 667520a1efa88614bbd99b19358d1ae6,
         type: 3}
     - time: 0.016666668
-      value: {fileID: -2797212750921541353, guid: 6cb618372068abb468e47545e3e550eb,
-        type: 3}
-    - time: 0.033333335
-      value: {fileID: 96585895240689116, guid: 6cb618372068abb468e47545e3e550eb, type: 3}
-    - time: 0.05
-      value: {fileID: 1544005002536926399, guid: 6cb618372068abb468e47545e3e550eb,
-        type: 3}
-    - time: 0.06666667
-      value: {fileID: -5936528412339796505, guid: 6cb618372068abb468e47545e3e550eb,
+      value: {fileID: -8737836497459372761, guid: 667520a1efa88614bbd99b19358d1ae6,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -52,17 +44,14 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -2441439665066717542, guid: 6cb618372068abb468e47545e3e550eb, type: 3}
-    - {fileID: -2797212750921541353, guid: 6cb618372068abb468e47545e3e550eb, type: 3}
-    - {fileID: 96585895240689116, guid: 6cb618372068abb468e47545e3e550eb, type: 3}
-    - {fileID: 1544005002536926399, guid: 6cb618372068abb468e47545e3e550eb, type: 3}
-    - {fileID: -5936528412339796505, guid: 6cb618372068abb468e47545e3e550eb, type: 3}
+    - {fileID: -5002442090298390998, guid: 667520a1efa88614bbd99b19358d1ae6, type: 3}
+    - {fileID: -8737836497459372761, guid: 667520a1efa88614bbd99b19358d1ae6, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.083333336
+    m_StopTime: 0.033333335
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

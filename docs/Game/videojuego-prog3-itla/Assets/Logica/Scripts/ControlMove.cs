@@ -4,33 +4,42 @@ using UnityEngine;
 
 public class ControlMove : MonoBehaviour
 {
+    public float velocidadMax = 4f;
     public float velocidad = 4f;
-    public float maxY;
-    public float minY;
+    private Animator anim;
+    private Rigidbody2D rb2d;
     void Start()
     {
-        
+        rb2d = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        float h = Input.GetAxis("Vertical");
 
+        rb2d.AddForce(Vector2.up * velocidad * h);
 
-
-
+        float limitedSpeed = Mathf.Clamp(rb2d.velocity.y, -velocidadMax, velocidadMax);
+        rb2d.velocity = new Vector2(rb2d.velocity.x,limitedSpeed);
 
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            transform.position += Vector3.up * velocidad * Time.deltaTime;
-
+            anim.SetBool("Bajar",false);
+            anim.SetBool("Subir",true);
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            transform.position += Vector3.down * velocidad * Time.deltaTime;
-
+            anim.SetBool("Subir",false);
+            anim.SetBool("Bajar",true);
         }
-   transform.position = new Vector3(transform.position.x,Mathf.Clamp(transform.position.y,minY,maxY), transform.position.z);
+
+        if(Input.GetKeyUp(KeyCode.UpArrow)||Input.GetKeyUp(KeyCode.DownArrow))
+        {
+            anim.SetBool("Subir",false);
+            anim.SetBool("Bajar",false);
+        }
+
     }
 }
