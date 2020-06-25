@@ -145,3 +145,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 20
   health: 1
+  balasonido: {fileID: 8638429211475651692, guid: b007ae87016201e46aa2507a1e2b8608,
+    type: 3}
