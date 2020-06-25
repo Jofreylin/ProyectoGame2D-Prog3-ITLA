@@ -7,10 +7,7 @@ public class ControlMenuPausa : MonoBehaviour
     public GameObject MenuPausa;
    public static bool jpausa;
   
-    void Start()
-    {
-        
-    }
+   
 
     // Update is called once per frame
     void Update()
