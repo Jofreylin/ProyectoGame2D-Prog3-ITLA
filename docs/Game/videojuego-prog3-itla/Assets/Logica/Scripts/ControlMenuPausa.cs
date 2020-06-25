@@ -14,13 +14,13 @@ public class ControlMenuPausa : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("escape") && pausa == false)
+        if (Input.GetKeyDown("escape") && pausa == true)
         {
             pausa = true;
             MenuPausa.active = true;
             Time.timeScale = 0;
         }
-    else if (Input.GetKeyDown("escape") && pausa == true)
+    else if (Input.GetKeyDown("escape") && pausa == false)
     
     {
         pausa = false;
