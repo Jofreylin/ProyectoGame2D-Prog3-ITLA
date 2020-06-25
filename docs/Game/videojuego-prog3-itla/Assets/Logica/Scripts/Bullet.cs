@@ -7,11 +7,10 @@ public class Bullet : MonoBehaviour
     public float speed = 3f;
     public int health = 1;
     private Rigidbody2D rb2d;
-public GameObject balasonido;
+    public GameObject balasonido;
     // Start is called before the first frame update
     void Start()
     {
-        
         rb2d = GetComponent<Rigidbody2D>();
         //Invocar el destruir objeto cada 1 segundo
         Invoke("DestroySelf", 1f);

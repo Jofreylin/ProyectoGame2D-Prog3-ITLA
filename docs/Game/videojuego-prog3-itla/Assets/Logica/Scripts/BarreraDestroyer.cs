@@ -4,21 +4,14 @@ using UnityEngine;
 
 public class BarreraDestroyer : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public GameManager manager;
 
-    private void OnTriggerEnter2D(Collider2D collision){
+    void OnCollisionEnter2D(Collision2D collision){
         if(collision.gameObject.CompareTag("ovni")){
-            Destroy(collision.gameObject);
+            Animator anim = collision.gameObject.GetComponent<Animator>();
+            anim.SetBool("Explotar",true);
+            manager.GameOver();
         }
     }
 
