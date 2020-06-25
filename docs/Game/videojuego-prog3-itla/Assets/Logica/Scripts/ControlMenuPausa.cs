@@ -3,36 +3,48 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ControlMenuPausa : MonoBehaviour
-{
-   public bool pausa = false;
-   public GameObject MenuPausa;
-    void Start()
-    {
-        
-    }
+{ 
+    public GameObject MenuPausa;
+   public static bool jpausa;
+  
+   
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("escape") && pausa == false)
+        if (Input.GetKeyDown("escape"))
         {
-            pausa = true;
-            MenuPausa.active = true;
-            Time.timeScale = 0;
-        }
-    else if (Input.GetKeyDown("escape") && pausa == true)
+          if (jpausa == true)
+          {
+              quitarpausa();
+          
+           }
+    else 
     
     {
-        pausa = false;
-            MenuPausa.active = false;
+        
+
+pausa();
+
+    }
+}
+
+ void pausa(){
+
+  jpausa = true;
+            MenuPausa.SetActive(true);
+            Time.timeScale = 0;
+
+
+ }
+
+ void quitarpausa(){
+
+
+jpausa = false;
+            MenuPausa.SetActive(false);
             Time.timeScale = 1;
     }
-
-
-
-
-    }
-
-
- 
+     
+ }
 }

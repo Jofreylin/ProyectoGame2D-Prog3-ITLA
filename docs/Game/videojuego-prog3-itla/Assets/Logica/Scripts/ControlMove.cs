@@ -6,6 +6,9 @@ public class ControlMove : MonoBehaviour
 {
     public float velocidadMax = 4f;
     public float velocidad = 4f;
+ public float maxY = 4;
+    public float minY = -4;
+
     private Animator anim;
     private Rigidbody2D rb2d;
 
@@ -50,5 +53,6 @@ public class ControlMove : MonoBehaviour
             GameObject bullet = (GameObject)Instantiate(bulletRef);
             bullet.transform.position = new Vector3(transform.position.x - 1.6f, transform.position.y - .2f, -1);
         }
+           transform.position = new Vector3(transform.position.x,Mathf.Clamp(transform.position.y,minY,maxY), transform.position.z);
     }
 }
