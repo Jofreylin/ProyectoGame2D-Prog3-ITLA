@@ -95,6 +95,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c2d6b5c34af5a448d325d2ee736e02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movement: {fileID: 3268549356562524221, guid: 7483fbe8f704f524493888b8840c4088,
+    type: 3}
+  MenuPerder: {fileID: 0}
+  bullet: {fileID: 6561171542700260631, guid: 8713a22e8e51e8844b0c173b18df2bbf, type: 3}
 --- !u!61 &5079744302910199365
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -105,7 +109,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.3131373, y: 0}

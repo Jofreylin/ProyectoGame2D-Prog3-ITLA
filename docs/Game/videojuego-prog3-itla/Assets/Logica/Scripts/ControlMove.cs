@@ -24,11 +24,13 @@ public class ControlMove : MonoBehaviour
         
         if (Input.GetKey(KeyCode.UpArrow))
         {
+            rb2d.AddForce(Vector2.up * velocidad);
             anim.SetBool("Bajar",false);
             anim.SetBool("Subir",true);
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
+            rb2d.AddForce(Vector2.up * velocidad * -1);
             anim.SetBool("Subir",false);
             anim.SetBool("Bajar",true);
         }
@@ -39,16 +41,14 @@ public class ControlMove : MonoBehaviour
             anim.SetBool("Bajar",false);
         }
 
-        float h = Input.GetAxis("Vertical");
-
-        rb2d.AddForce(Vector2.up * velocidad * h);
-
         float limitedSpeed = Mathf.Clamp(rb2d.velocity.y, -velocidadMax, velocidadMax);
         rb2d.velocity = new Vector2(rb2d.velocity.x,limitedSpeed);
-
-        if(Input.GetKeyDown(KeyCode.Space)){
+        if(Time.timeScale != 0f){
+            if(Input.GetKeyDown(KeyCode.Space)){
             GameObject bullet = (GameObject)Instantiate(bulletRef);
             bullet.transform.position = new Vector3(transform.position.x - 1.6f, transform.position.y - .2f, -1);
         }
+        }
+        
     }
 }

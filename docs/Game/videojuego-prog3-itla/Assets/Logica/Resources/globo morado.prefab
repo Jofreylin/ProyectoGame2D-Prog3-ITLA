@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 8624875044505900009}
   m_Layer: 0
   m_Name: globo morado
-  m_TagString: Untagged
+  m_TagString: balloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
