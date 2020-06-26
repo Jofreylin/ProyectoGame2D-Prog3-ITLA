@@ -12,9 +12,10 @@ public class Bullet : MonoBehaviour
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        balasonido = (GameObject) Instantiate(balasonido);
         //Invocar el destruir objeto cada 1 segundo
         Invoke("DestroySelf", 1f);
-         Instantiate(balasonido);
+         
     }
 
     // Update is called once per frame
@@ -35,6 +36,6 @@ public class Bullet : MonoBehaviour
     //Metodo para destruir objeto
     private void DestroySelf(){
         Destroy(gameObject);
-       
+        Destroy(balasonido);
     }
 }
