@@ -7,8 +7,6 @@ public class ControlMenuPausa : MonoBehaviour
     public GameObject MenuPausa;
     public static bool jpausa = false;
 
-
-
     // Update is called once per frame
     void Update()
     {
@@ -31,8 +29,6 @@ public class ControlMenuPausa : MonoBehaviour
         jpausa = true;
         Time.timeScale = 0f;
         MenuPausa.SetActive(true);
-        
-
 
     }
 
@@ -43,7 +39,6 @@ public class ControlMenuPausa : MonoBehaviour
         jpausa = false;
         Time.timeScale = 1f;
         MenuPausa.SetActive(false);
-        
     }
 
 

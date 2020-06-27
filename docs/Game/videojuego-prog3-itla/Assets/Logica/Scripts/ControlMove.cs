@@ -48,6 +48,7 @@ public class ControlMove : MonoBehaviour
             GameObject bullet = (GameObject)Instantiate(bulletRef);
             bullet.transform.position = new Vector3(transform.position.x - 1.6f, transform.position.y - .2f, -1);
         }
+        
         }
         
     }
