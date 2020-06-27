@@ -11,13 +11,16 @@ public class GameManager : MonoBehaviour
     //public Bullet bullet;
     public ControlMenuPausa menuPausa;
     public GameObject MusicaFondo;
+    public GameObject GeneradorGeneral;
+    
 
     public void GameOver(){
         jPerder = true;
         MenuPerder.SetActive(true);
         MusicaFondo.SetActive(false);
         Time.timeScale = 0f;
-        //menuPausa.enabled = false;
+        GeneradorGeneral.SetActive(false);
+        menuPausa.enabled = false;
     }
 
     public void Jugar(){
