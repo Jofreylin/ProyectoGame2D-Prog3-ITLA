@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BarreraDestroyer : MonoBehaviour
 {
-
+  
     public GameManager manager;
 
     void OnCollisionEnter2D(Collision2D collision){
@@ -12,6 +12,7 @@ public class BarreraDestroyer : MonoBehaviour
             Animator anim = collision.gameObject.GetComponent<Animator>();
             anim.SetBool("Explotar",true);
             manager.GameOver();
+             
         }
     }
 

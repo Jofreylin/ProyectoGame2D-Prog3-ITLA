@@ -15,6 +15,7 @@ public class DestroyBalloon : MonoBehaviour
         //Carga los recursos
         //matWhite = Resources.Load("WhiteFlash", typeof(Material)) as Material;
         //matDefault = sR.material;
+        Invoke("KillSelf",4f);
     }
 
     // Update is called once per frame
