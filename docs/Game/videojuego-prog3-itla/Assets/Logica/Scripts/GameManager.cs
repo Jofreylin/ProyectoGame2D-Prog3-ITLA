@@ -24,6 +24,11 @@ public class GameManager : MonoBehaviour
     }
 
     public void Jugar(){
+        jPerder = false;
+        MenuPerder.SetActive(false);
+        MusicaFondo.SetActive(true);
+        Time.timeScale = 1f;
+        GeneradorGeneral.SetActive(true);
         menuPausa.enabled = true;
     }
 
