@@ -1,32 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class ControlMenuPerder : MonoBehaviour
 {
-    public GameObject MenuPerder;
-
-    public static bool jPerder = false;
-    // Update is called once per frame
-    void Update()
-    {
-            if (jPerder == true)
-            {
-                Pausa();
-            }
-            
-    }
-    void Pausa()
-    {
-        jPerder = true;
-        Time.timeScale = 0f;
-        MenuPerder.SetActive(true);
-      
+    public GameManager manager;
+    public void CargarMenuPrincipal(){
+        SceneManager.LoadScene("Main");
     }
 
-  
+    public void SalirJuego(){
+        Debug.Log("Saliendo del juego");
+        Application.Quit();
+    }
 
-
+    public void Reiniciar(){
+        manager.Jugar();
+        SceneManager.LoadScene("Game");
+    }
 
     
 }
