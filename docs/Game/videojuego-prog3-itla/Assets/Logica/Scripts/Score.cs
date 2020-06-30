@@ -19,8 +19,9 @@ public class Score : MonoBehaviour
     void SumarScore(){
         score = false;
         int cantidad = 0;
+        //Toma el valor en texto y lo pasa directo a un int
         int.TryParse(scoreText.text, out cantidad);
-        cantidad = cantidad + 1;
+        cantidad += 1;
         scoreText.text = cantidad.ToString();
     }
 }

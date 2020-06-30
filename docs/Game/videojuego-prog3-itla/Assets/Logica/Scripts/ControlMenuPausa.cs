@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class ControlMenuPausa : MonoBehaviour
 {
+    public GameManager manager;
     public GameObject MenuPausa;
     public AudioSource Musica;
     public static bool jpausa = false;
@@ -43,6 +44,7 @@ public class ControlMenuPausa : MonoBehaviour
     }
 
     public void CargarMenuPrincipal(){
+        manager.Jugar();
         SceneManager.LoadScene("Main");
     }
 
@@ -52,7 +54,7 @@ public class ControlMenuPausa : MonoBehaviour
     }
 
     public void Reiniciar(){
-        QuitarPausa();
+        manager.Jugar();
         SceneManager.LoadScene("Game");
     }
 

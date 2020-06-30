@@ -4,11 +4,7 @@ using UnityEngine;
 
 public class GeneratorGlobos : MonoBehaviour
 {
-
-
     public GameObject globo;
-
-
     public float generatorTimerspanw = 4.75f;
     public float generatortimerstar = 0.5f;
 
@@ -28,9 +24,7 @@ public class GeneratorGlobos : MonoBehaviour
 
     void CreateGlobos()
     {
-
         Instantiate(globo, transform.position, Quaternion.identity);
-
     }
 
 

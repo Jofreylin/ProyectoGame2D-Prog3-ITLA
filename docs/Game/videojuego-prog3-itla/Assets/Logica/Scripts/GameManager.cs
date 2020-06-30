@@ -5,22 +5,24 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
 
-    //public ControlMove movement;
+    public GameObject ovni;
     public GameObject MenuPerder;
     public static bool jPerder = false;
     //public Bullet bullet;
     public ControlMenuPausa menuPausa;
     public GameObject MusicaFondo;
     public GameObject GeneradorGeneral;
-    
 
     public void GameOver(){
         jPerder = true;
+        Animator anim = ovni.GetComponent<Animator>();
+        anim.SetBool("Explotar",true);
         MenuPerder.SetActive(true);
         MusicaFondo.SetActive(false);
         Time.timeScale = 0f;
         GeneradorGeneral.SetActive(false);
         menuPausa.enabled = false;
+        Timer.jugando = false;
     }
 
     public void Jugar(){

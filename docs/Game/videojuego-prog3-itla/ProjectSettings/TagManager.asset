@@ -7,6 +7,7 @@ TagManager:
   - balloon
   - bullet
   - ovni
+  - balloonBlue
   layers:
   - Default
   - TransparentFX
