@@ -7,10 +7,7 @@ public class BarreraDestroyer : MonoBehaviour
     public GameManager manager;
     void OnCollisionEnter2D(Collision2D collision){
         if(collision.gameObject.CompareTag("ovni")){
-            Animator anim = collision.gameObject.GetComponent<Animator>();
-            anim.SetBool("Explotar",true);
             manager.GameOver();
-            
         }
     }
 

@@ -147,3 +147,4 @@ MonoBehaviour:
   health: 1
   balasonido: {fileID: 8638429211475651692, guid: b007ae87016201e46aa2507a1e2b8608,
     type: 3}
+  plusTen: {fileID: 6849066461445988520, guid: 35770d7d0714587459513ce4a109522b, type: 3}

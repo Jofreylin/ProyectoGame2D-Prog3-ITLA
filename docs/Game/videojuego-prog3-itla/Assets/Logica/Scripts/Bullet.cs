@@ -8,6 +8,7 @@ public class Bullet : MonoBehaviour
     public int health = 1;
     private Rigidbody2D rb2d;
     public GameObject balasonido;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +32,11 @@ public class Bullet : MonoBehaviour
             DestroySelf();
             Score.score = true;
         }
+        if(collision.gameObject.CompareTag("balloonBlue")){
+            DestroySelf();
+            Score.score = true;
+            Timer.sumar = true;
+        }
     }
 
     //Metodo para destruir objeto
@@ -38,4 +44,5 @@ public class Bullet : MonoBehaviour
         Destroy(gameObject);
         Destroy(balasonido);
     }
+
 }
