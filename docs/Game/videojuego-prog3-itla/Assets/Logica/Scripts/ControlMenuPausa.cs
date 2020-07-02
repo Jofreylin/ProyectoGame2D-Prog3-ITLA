@@ -54,6 +54,7 @@ public class ControlMenuPausa : MonoBehaviour
     }
 
     public void Reiniciar(){
+        manager.GameOver();
         manager.Jugar();
         SceneManager.LoadScene("Game");
     }
