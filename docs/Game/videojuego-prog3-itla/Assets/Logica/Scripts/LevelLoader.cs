@@ -14,6 +14,11 @@ public class LevelLoader : MonoBehaviour
     {
         StartCoroutine(LoadAsyn(sceneIndex));
     }
+
+    public void SalirJuego(){
+        Application.Quit();
+        Debug.Log("Saliendo del juego");
+    }
         
     IEnumerator LoadAsyn(int sceneIndex){
         

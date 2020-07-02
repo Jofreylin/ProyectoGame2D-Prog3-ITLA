@@ -8,7 +8,7 @@ public class Timer : MonoBehaviour
 
     public GameManager manager;
     //tiempo inicial en segundos
-    public static float timeStart = 79f; 
+    public static float timeStart = 30f; 
     public static bool jugando = false;
     public static bool sumar = false;
     public Text textBox;
@@ -38,7 +38,7 @@ public class Timer : MonoBehaviour
             textBox.text = "Tiempo: " + timerStr;
 
         }else{
-            timeStart = 79f;
+            timeStart = 30f;
         }
         
         if(timeStart <= 0){

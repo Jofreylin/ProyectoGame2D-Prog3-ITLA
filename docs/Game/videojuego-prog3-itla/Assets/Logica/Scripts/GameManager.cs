@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public GameObject MusicaFondo;
     public GameObject GeneradorGeneral;
 
+    public static bool plusTenStatus = false;
     public void GameOver(){
         jPerder = true;
         Animator anim = ovni.GetComponent<Animator>();
