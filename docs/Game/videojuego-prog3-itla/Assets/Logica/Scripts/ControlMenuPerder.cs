@@ -6,6 +6,7 @@ public class ControlMenuPerder : MonoBehaviour
 {
     public GameManager manager;
     public void CargarMenuPrincipal(){
+        manager.GameOver();
         manager.Jugar();
         SceneManager.LoadScene("Main");
     }

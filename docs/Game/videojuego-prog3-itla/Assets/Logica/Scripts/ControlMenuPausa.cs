@@ -44,6 +44,7 @@ public class ControlMenuPausa : MonoBehaviour
     }
 
     public void CargarMenuPrincipal(){
+        manager.GameOver();
         manager.Jugar();
         SceneManager.LoadScene("Main");
     }
